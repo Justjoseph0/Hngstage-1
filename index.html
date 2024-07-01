@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Tech Goals for the Next 2 Years</h1>
+    </header>
+    <main>
+        <section id="profile">
+            <p data-testid="slackDisplayName">Created by: <span id="slack-name"></span></p>
+            <img data-testid="slackProfilePicture" id="slack-profile-pic" src="" alt="Slack Profile Picture">
+            <p data-testid="slackEmail">Slack Email: <span id="slack-email"></span></p>
+        </section>
+        <section id="time-info">
+            <h2>Current Time and Day</h2>
+            <p data-testid="currentTimeUTC">Current Time (UTC): <span id="current-time"></span></p>
+            <p data-testid="currentDay">Current Day: <span id="current-day"></span></p>
+        </section>
+        <section id="goals">
+            <h2>My Tech Goals</h2>
+            <ul>
+                <li>Master front-end development with advanced JavaScript frameworks like React and Vue.js.</li>
+                <li>Study back-end technologies like Node.js, Express and databases like MongoDB or PostgreSQL.li>
+                <li>Build and deploy several full-stack projects to strengthen my portfolio.</li>
+                <li>Contribute to the open-source projects to get experience in collaborative development.</li>
+                <li>Networking within the community for job opportunities in HNG.</li>
+                <li>Earn certifications in cloud computing platforms like AWS and Azure.</li>
+                <li>Stay updated with the latest tech trends by following industry blogs and attending tech conferences.</li>
+            </ul>
+        </section>
+
+        <section id="links">
+            <h2>Useful Links</h2>
+            <p><a href="https://hng.tech/learn" target="_blank" data-testid="hngLink">HNG Tech</a></p>
+            <p><a href="https://keyword.dog" target="_blank" data-testid="keywordLink">Keyword Dog</a></p>
+            <p><a href="https://scrapeanyweb.site" target="_blank" data-testid="scrapeanywebLink">Scrape Any Web</a></p>
+        </section>
+    </main>
+    <script src="./static/script.js"></script>
+</body>
+</html>
